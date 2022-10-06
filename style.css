@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+#grad {
+    height: 1000px;
+    background-color: #a9fff5;
+    background-size: 400% 400%;
+    animation: gradient 5.5s infinite;
+    background-image: repeating-radial-gradient(#8f2384,#9691d5,#f74fe5);
+  }
+ 
+  @keyframes gradient{
+    0%{
+        background-position: 60% 10%;  
+    }
+    25%{
+        background-color: aqua;
+        background-position: 25% 25%;
+    }
+    50%{
+        background-position: -40% 40%;
+    }
+    75%{
+        background-color: white;
+        background-position: 75% 75%;
+    }
+    100%{
+        background-position: 50% 0%;
+    }
+}
+ 
+.vessel{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 30px;
+    width: 350px;
+    border-start-end-radius: 30px;
+    border-end-end-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+ 
+.vessel h1{
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #6f7d94;
+}
+ 
+.vessel label{
+    text-align: left;
+    color: #ffffff;
+    background-color: rgba(245, 222, 179, 0.288);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.vessel label2{
+    text-align: left;
+    color: #ffffff;
+    background-color: rgba(245, 222, 179, 0.288);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: calc(100% - 20px);
+}
+ 
+.vessel form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #6f7d94;
+    color: #fff;
+    font-size: 20px;
+}
+
+.vessel form output{
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    
+}
+ 
+.vessel form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#9aa2cf38;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: 20px;
+    color: #fafafa;
+}
+ 
+.vessel p1{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    color: #fafafa;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #6f7d94;
+    background-color: transparent;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
